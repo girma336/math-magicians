@@ -1,6 +1,7 @@
 <div align="center">
-
-  <img src="./murple_logo.png" alt="logo"  width="140"  height="auto" style="background-color: blue" />
+    <div align="center" background-color="blue">
+        <img src="./murple_logo.png" alt="logo"  width="140"  height="auto"  />
+    </div>
   <br/>
 
   <h3><b>Microverse Math Magicians Project</b></h3>
@@ -34,7 +35,10 @@
 # 📖 [Math_Magicians] <a name="about-project"></a>
 
 
-**[Math_Magicians]** is a basic website that displays a number of meals. A user can like, or comment on a meal they choose. We will achieve that by using JavaScript to dynamically modify the DOM.
+**[Math_Magicians]** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote 
 
 ## 🛠 Built With <a name="built-with"></a>
 
