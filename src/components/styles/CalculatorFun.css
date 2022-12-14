@@ -41,10 +41,11 @@ body {
   font-size: 18px;
   border: none;
 }
+
 .keypad button {
-    border: none;
-    border-bottom: 1px solid #666;
-    border-right: 0.5px solid #666;
+  border: none;
+  border-bottom: 1px solid #666;
+  border-right: 0.5px solid #666;
 }
 
 .screen-window span {
