@@ -28,15 +28,21 @@ body {
   grid-auto-rows: minmax(60px, auto);
 }
 
-input[type="text"] {
+.screen-window {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   height: 60px;
-  width: 97%;
+  width: 100%;
   text-align: right;
-  padding-right: 8px;
   background: rgb(209, 201, 201);
   font-weight: 500;
   font-size: 18px;
   border: none;
+}
+
+.screen-window span {
+  margin-right: 10px;
 }
 
 .zero {
