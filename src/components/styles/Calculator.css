@@ -17,7 +17,7 @@ body {
   margin: auto;
   width: 320px;
   text-align: center;
-  border: 1px solid #666;
+  border-right: 1px solid #666;
   background-color: #666;
   border-radius: 1px;
 }
@@ -28,17 +28,23 @@ body {
   grid-auto-rows: minmax(60px, auto);
 }
 
+.keypad button {
+  border: none;
+  border-bottom: 1px solid #555;
+  border-left: 1px solid #777;
+}
+
 .screen-window {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 60px;
-  width: 100%;
+  width: 99.8%;
   text-align: right;
   background: rgb(209, 201, 201);
   font-weight: 500;
   font-size: 18px;
-  border: none;
+  border: 1px solid #666;
 }
 
 .screen-window span {
@@ -51,6 +57,5 @@ body {
 
 .color-i {
   background: rgb(246, 157, 2);
-  border: none;
-  border-bottom: 0.5px solid #666;
+  border-right: 1px solid #666;
 }
