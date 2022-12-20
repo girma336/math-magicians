@@ -13,6 +13,13 @@ body {
   align-items: center;
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
 .container {
   margin: auto;
   width: 320px;
@@ -20,6 +27,11 @@ body {
   border-right: 1px solid #666;
   background-color: #666;
   border-radius: 1px;
+}
+
+.text-container {
+  margin-right: 200px;
+  text-align: center;
 }
 
 .keypad {
