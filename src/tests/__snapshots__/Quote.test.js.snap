@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test by Using Snapshot ofr Quote rendere curectlly for quote component 1`] = `
+<div
+  className="quout-gen"
+>
+  <p>
+    " Never do things others can do and will do, if there are things others cannot do or will not do "  -
+    <span
+      className="author"
+    >
+       Amelia Earhart
+    </span>
+  </p>
+</div>
+`;
