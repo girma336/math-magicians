@@ -12,14 +12,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px;
 }
+
 .container {
-  
   margin: auto;
   width: 320px;
   text-align: center;
