@@ -1,0 +1,12 @@
+.quout-gen {
+  width: 95%;
+  text-align: center;
+  border: 1px solid #666;
+  box-shadow: 0 0 5px #666;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+}
